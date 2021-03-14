@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import instance from "./axios";
 import request from "./requests";
+import "./banner.css";
 
 function Banner() {
   const [movies, setmoview] = useState([]);
@@ -23,8 +24,24 @@ function Banner() {
   console.log(movies);
 
   return (
-    <header>
-      <title></title>
+    <header
+      className="banner"
+      style={{
+        backgroundSize: "cover ",
+        backgroundImage: `url("https://image.tmdb.org/t/p/original/${movies.backdrop_path}")`,
+        backgroundPosition: "center center",
+      }}
+    >
+      <div className="banner_contents">
+        <h1 className="banner_title">
+          {movies.title || movies.name || movies.original_name}
+        </h1>
+        <div className="banner_buttons">
+          <button className="banner_button">Play</button>
+          <button className="banner_button">Mylist</button>
+        </div>
+        <h1 className="banner_description">{movies?.overview}</h1>
+      </div>
     </header>
   );
 }
