@@ -1,0 +1,27 @@
+.Nav {
+  position: fixed;
+  top: 1;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+}
+.navblack {
+  background-color: black;
+}
+.n_logo {
+  position: fixed;
+  left: 0;
+  width: 80px;
+  object-fit: contain;
+}
+
+.n_avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}

@@ -24,7 +24,7 @@ function Banner() {
   console.log(movies);
 
   function truncate(abc, n) {
-    return abc?.length > n ? abc.substr(0, n - 1) + "..." : null;
+    return abc?.length > n ? abc.substr(0, n - 1) + "..." : abc;
   }
   return (
     <header
