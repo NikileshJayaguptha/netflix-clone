@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/NikileshJayaguptha/netflix-clonestatic/css/main.fcb0a61a.chunk.css",
+    "main.js": "/NikileshJayaguptha/netflix-clonestatic/js/main.af8592df.chunk.js",
+    "main.js.map": "/NikileshJayaguptha/netflix-clonestatic/js/main.af8592df.chunk.js.map",
+    "runtime-main.js": "/NikileshJayaguptha/netflix-clonestatic/js/runtime-main.fb6ec043.js",
+    "runtime-main.js.map": "/NikileshJayaguptha/netflix-clonestatic/js/runtime-main.fb6ec043.js.map",
+    "static/js/2.9f693fa7.chunk.js": "/NikileshJayaguptha/netflix-clonestatic/js/2.9f693fa7.chunk.js",
+    "static/js/2.9f693fa7.chunk.js.map": "/NikileshJayaguptha/netflix-clonestatic/js/2.9f693fa7.chunk.js.map",
+    "static/js/3.024ee457.chunk.js": "/NikileshJayaguptha/netflix-clonestatic/js/3.024ee457.chunk.js",
+    "static/js/3.024ee457.chunk.js.map": "/NikileshJayaguptha/netflix-clonestatic/js/3.024ee457.chunk.js.map",
+    "index.html": "/NikileshJayaguptha/netflix-cloneindex.html",
+    "static/css/main.fcb0a61a.chunk.css.map": "/NikileshJayaguptha/netflix-clonestatic/css/main.fcb0a61a.chunk.css.map",
+    "static/js/2.9f693fa7.chunk.js.LICENSE.txt": "/NikileshJayaguptha/netflix-clonestatic/js/2.9f693fa7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb6ec043.js",
+    "static/js/2.9f693fa7.chunk.js",
+    "static/css/main.fcb0a61a.chunk.css",
+    "static/js/main.af8592df.chunk.js"
+  ]
+}
